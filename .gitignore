@@ -1,0 +1,28 @@
+# 本地缓存/备份
+*.bak
+*.backup
+data/.backups/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
+tmp_*/
+
+# 测试脚本（不需要上传）
+test_ai.py
+test_cal.py
+ai_test.txt
+
+# 数据处理脚本（本地工具）
+enrich_data.py
+update_data.py
+norms.py
+recipe_db.jsonl
+
+# IDE/编辑器
+.joycode/
